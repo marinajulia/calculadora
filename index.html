@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculadora de financiamento</title>
+</head>
+
+<body>
+
+    <div>
+        <h3 class="titulo">Calculadora de investimentos</h3>
+    </div>
+
+    <div class="conteudoDeEntrada">
+
+        <div class="texto">
+            <form class="form" action="">
+                <h3 class="entrada">Valor investido:</h3>
+                <input class="form-input" type="number" data-valor-total>
+            </form>
+            <form class="form" action="">
+                <h3 class="entrada">Quantidade de meses aplicados:</h3>
+                <input class="form-input" type="number" data-valor-mensal>
+            </form>
+            <form class="form" action="">
+                <h3 class="entrada">Taxa de juros mensal:</h3>
+                <input class="form-input" type="number" data-valor-juros>
+                <button class="form-botao" data-form-botao>Calcular</button>
+            </form>
+
+
+            <div class="conteiner">
+
+                <div class="bloco">
+                    <h3>Valor total acumulado: </h3>
+                    <div class="content" data-task></div>
+                </div>
+
+                <div class="bloco">
+                    <h3>Valor mensal: </h3>
+                    <div class="content" data-task2></div>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="module" src="main.js"></script>
+</body>
+
+</html>
+<!-- <h1 class="titulo">Calculadora de investimento</h1>
+        <div class="teste">
+            <div class="texto">
+                <form class="form" action="">
+                    <h3>Valor investido:</h3>
+                    <input class="form-input" type="number" data-valor-total>
+                </form>
+                <form class="form" action="">
+                    <h3>Quantidade de meses aplicados:</h3>
+                    <input class="form-input" type="number" data-valor-mensal>
+                </form>
+                <form class="form" action="">
+                    <h3>Taxa de juros mensal:</h3>
+                    <input class="form-input" type="number" data-valor-juros>
+                    <button class="form-botao" data-form-botao>Calcular</button>
+                </form>
+            </div>
+
+            <div class="conteiner">
+                <div class="bloco">
+                    <h3>Valor total acumulado: </h3>
+                    <div class="content" data-task></div>
+                </div>
+
+                <div class="bloco">
+                    <h3>Valor mensal: </h3>
+                    <div class="content" data-task2></div>
+                </div>
+            </div>
+        </div> -->
